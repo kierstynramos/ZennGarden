@@ -1,0 +1,79 @@
+h1, h2, h3, h4{
+  text-transform:uppercase;
+}
+#clothes{
+  max-width:40%;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin:5px 50px;
+  background: white;
+}
+#black{
+  color:white;
+}
+h3{
+  text-align:center;
+  border:solid black;
+}
+body{
+  font-family: 'Tinos', serif;
+  display:inline-block;
+  
+}
+div.content{
+  border: solid black 3px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin:5px 50px;
+  background: white;
+}
+div.body{
+  background:black;
+  margin: 0 2%;
+  max-width:100%;
+}
+button{
+  display:flex;
+  flex-flow: row wrao;
+  padding: 10px;
+  background:black;
+  width:100%;
+  margin:5px;
+  color:white;
+}
+a{
+  diaplay:flex;
+  flex-flow: row wrap;
+  color:black;
+  text-decoration:none;
+  padding:0px 5px 0px 5px;
+}
+section+a {
+  color:white;
+}
+section{
+  max-width:100%;
+	flex-flow: row wrap;
+}  
+.help{
+  display:block;
+}
+.nextDesigns{
+  color:black;
+}
+
+@media (min-width: 600px){
+  
+  section{
+  display: flex;
+  flex-flow: row wrap;
+  max-width:30%;
+  position:absolute;
+  right:10%;
+  top:35%;
+  }
+  .content{
+    max-width:40%;
+    position:relative;
+  }
+}
